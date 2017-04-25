@@ -37,13 +37,13 @@ public class Main2Activity extends AppCompatActivity {
                     result = valor1 + valor2;
 
                     resultado.setText(String.valueOf(result));
-                } else if (checkedId == R.id.radioButton2) {
+                } else if (checkedId == R.id.radioButton3) {
                     valor1 = Integer.parseInt(numero1.getText().toString());
                     valor2 = Integer.parseInt(numero2.getText().toString());
                     result = valor1 - valor2;
 
                     resultado.setText(String.valueOf(result));
-                } else if (checkedId == R.id.radioButton3) {
+                } else if (checkedId == R.id.radioButton2) {
                     valor1 = Integer.parseInt(numero1.getText().toString());
                     valor2 = Integer.parseInt(numero2.getText().toString());
                     result = valor1 * valor2;
